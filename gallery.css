@@ -1,35 +1,35 @@
 .gallery-grid {
   display: flex;
-  padding-right: -1rem;
-  padding-left: -1rem;
-  overflow-x: hidden;
   flex-direction: row;
-  scroll-behavior: smooth;
 
   max-height: 50%;
+  padding-right: -1rem;
+  padding-left: -1rem;
   margin-top: 2rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .gallery-grid > div {
-  scroll-padding-top: 6rem;
-  width: 100%;
   flex-shrink: 0;
+  width: 100%;
+  scroll-padding-top: 6rem;
 }
 
 .gallery-grid img {
-  margin-left: auto;
-  margin-right: auto;
   height: 320px;
+  margin-right: auto;
+  margin-left: auto;
   object-fit: contain;
 }
 
 .gallery-thumbnails {
-  margin-top: 2rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .gallery-thumbnails > * {
@@ -38,7 +38,7 @@
 }
 
 .gallery-thumbnails img {
-  margin-left: auto;
-  margin-right: auto;
   height: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }

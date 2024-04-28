@@ -1,23 +1,23 @@
 .title {
-  font-size: 2rem;
-  line-height: 1.25;
-  font-weight: 700;
-  letter-spacing: -0.025em;
   margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
   color: var(--blue-50);
+  letter-spacing: -0.025em;
 }
 
 .section-title {
-  font-size: 1.25rem;
-  line-height: 1.25;
-  font-weight: 600;
   margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
 }
 
 .supporting-text {
-  color: #475569;
   font-size: 1.125rem;
   line-height: 1.5;
+  color: #475569;
 }
 
 .text-sm {
@@ -30,8 +30,8 @@
 }
 
 .mx-auto {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 768px) {

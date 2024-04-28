@@ -1,18 +1,18 @@
 nav {
-  background-color: var(--blue-600);
-  color: var(--blue-50);
-  z-index: 9999;
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
+  left: 0;
+  z-index: 9999;
+  color: var(--blue-50);
+  background-color: var(--blue-600);
 }
 
 nav > div {
   display: flex;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -23,8 +23,8 @@ nav > div {
 
 .header-nav {
   display: flex;
-  align-items: center;
   gap: 1rem;
+  align-items: center;
 }
 
 .hero {
@@ -38,11 +38,11 @@ nav > div {
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
   bottom: 0;
-  object-fit: cover;
+  left: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .hero-content {
@@ -64,7 +64,7 @@ nav > div {
 @media (min-width: 768px) {
   .hero-image {
     max-width: 75%;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 }
