@@ -1,0 +1,38 @@
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  scroll-padding-top: 1rem;
+}
+
+.hero {
+  margin-top: calc(var(--header-height) + 1rem);
+}
+
+.paragraph {
+  max-width: 768px;
+}
+
+.cta {
+  background-image: linear-image(to top, var(--blue-50), var(--blue-950));
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
